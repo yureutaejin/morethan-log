@@ -14,6 +14,7 @@ const CONFIG = {
     {
       name: `yureutae-log`,
       href: "https://github.com/yureutaejin/morethan-log",
+      theme: "auto"
     },
   ],
   // blog setting (required)
@@ -23,10 +24,13 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  link: "https://yureutae-log.vercel.app",
+  since: 2023, // If leave this empty, current year will be used.
+  lang: ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR'],
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  seo: {
+    keywords: ["Blog", "Website", "Notion"]
+  },
 
   // notion configuration (required)
   notionConfig: {
@@ -35,19 +39,19 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
@@ -55,7 +59,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: false,
+    enable: true,
     config: {
       host: "https://cusdis.com",
       appid: "", // Embed Code -> data-app-id value
