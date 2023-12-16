@@ -6,8 +6,8 @@ const CONFIG = {
     role: "Researcher",
     bio: "I'm interested in DevOps, Cloud, Data Engineering now",
     email: "jyjin3@naver.com",
-    linkedin: "https://www.linkedin.com/in/yuntae-jin-4bab97201/",
-    github: "https://github.com/yureutaejin",
+    linkedin: "yuntae-jin-4bab97201",
+    github: "yureutaejin",
     instagram: "",
   },
   projects: [
