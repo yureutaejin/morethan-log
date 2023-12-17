@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "yureutae",
-    image: "/profile-image.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/profile-image.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Engineer",
     bio: "I'm interested in DevOps, Cloud, Data Engineering now",
     email: "jyjin3@naver.com",
@@ -51,7 +51,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
