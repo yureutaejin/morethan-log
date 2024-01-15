@@ -8,7 +8,7 @@ const CONFIG = {
     email: "jyjin3@naver.com",
     linkedin: "yuntae-jin-4bab97201",
     github: "yureutaejin",
-    instagram: "",
+    instagram: "yuntae-profile",
   },
   projects: [
     {
@@ -21,6 +21,7 @@ const CONFIG = {
   blog: {
     title: "yureutae-log",
     description: "welcome to yureutae-log!",
+    theme: "auto",
   },
 
   // CONFIG configration (required)
@@ -48,6 +49,12 @@ const CONFIG = {
     enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+    },
+  },
+  naverSearchAdvisor: {
+    enable: false,
+    config: {
+      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
     },
   },
   utterances: {
