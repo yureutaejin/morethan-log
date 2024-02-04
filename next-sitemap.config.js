@@ -6,4 +6,17 @@ module.exports = {
   sitemapSize: 7000,
   generateIndexSitemap: false,
   changefreq: 'daily',
+  exclude: ['/server-sitemap-index.xml'],
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: '*',
+        allow: '/',
+      },
+    ],
+    host: CONFIG.link,
+    additionalSitemaps: [
+      `${CONFIG.link}/server-sitemap-index.xml`,
+    ],
+  },
 }
