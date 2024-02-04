@@ -5,5 +5,6 @@ module.exports = {
   generateRobotsTxt: true,
   sitemapSize: 7000,
   generateIndexSitemap: false,
-  changefreq: 'daily'
+  changefreq: 'daily',
+  exclude: ['/server-sitemap.xml'],
 }
