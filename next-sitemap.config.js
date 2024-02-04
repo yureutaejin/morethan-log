@@ -6,5 +6,4 @@ module.exports = {
   sitemapSize: 7000,
   generateIndexSitemap: false,
   changefreq: 'daily',
-  exclude: ['/server-sitemap.xml'],
 }
