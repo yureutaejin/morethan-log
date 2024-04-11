@@ -84,4 +84,16 @@
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+<url>
+<loc>https://yureutae-log.vercel.app/cloudgoat-iam-privesc-key-rotation</loc>
+<lastmod>2024-04-02T03:23:08.247Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://yureutae-log.vercel.app/towards-modern-development-of-cloud-applications</loc>
+<lastmod>2024-04-02T03:23:08.247Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
+</url>
 </urlset>
