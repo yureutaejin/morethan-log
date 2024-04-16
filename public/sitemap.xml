@@ -7,12 +7,6 @@
 <priority>0.7</priority>
 </url>
 <url>
-<loc>https://yureutae-log.vercel.app/server-sitemap-index.xml</loc>
-<lastmod>2024-03-20T03:23:08.247Z</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.7</priority>
-</url>
-<url>
 <loc>https://yureutae-log.vercel.app/artifact-registry-migration</loc>
 <lastmod>2024-03-20T03:23:08.247Z</lastmod>
 <changefreq>daily</changefreq>
@@ -93,6 +87,12 @@
 <url>
 <loc>https://yureutae-log.vercel.app/towards-modern-development-of-cloud-applications</loc>
 <lastmod>2024-04-02T03:23:08.247Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://yureutae-log.vercel.app/serverless-notice-bot-introduce</loc>
+<lastmod>2024-04-16T03:23:08.247Z</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
