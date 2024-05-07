@@ -96,4 +96,10 @@
 <changefreq>daily</changefreq>
 <priority>0.7</priority>
 </url>
+<url>
+<loc>https://yureutae-log.vercel.app/homelab-cluster-architecture-plan</loc>
+<lastmod>2024-05-07T03:23:08.247Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
+</url>
 </urlset>
